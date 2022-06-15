@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disappear {
+  animation: vanish 3s forwards;
+}
+@keyframes vanish {
+  100% {
+    opacity: 1.5;
+    visibility: hidden;
+  }
+}
+
+td{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#mainTBL{
+    margin-top: 2rem;
+    margin-left: 40%;
+}
+
+#tableOne {
+  margin-top: 5rem;
+}
+
+#tableTwo {
+  margin: 10px;
+  display: none;
+  justify-items: center;
+}
+
+#tableThree {
+  margin: 10px;
+  display: none;
+  justify-items: center;
+}
+#tableFour {
+  margin: 10px;
+  display: none;
+  justify-items: center;
+}
+#tableFive {
+  margin: 10px;
+  display: none;
+  justify-items: center;
+}
+#tableSix {
+  margin: 10px;
+  display: none;
+  justify-items: center;
+}
+#tableSeven {
+  margin: 10px;
+  display: none;
+  justify-items: center;
+}
